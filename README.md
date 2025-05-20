@@ -10,6 +10,23 @@ Demo of using AI Agents to query ecommerce data with pydantic-ai and bigquery
 
 ## Usage
 
+### Simple Demo
+
+`uv run simple-memory/main.py`
+
+```sh
+User: Hi!
+AI: Hello! How can I assist you today?
+
+User: What is 2+2?
+AI: 2 + 2 equals 4.
+
+User: Add 5 to that.
+AI: 4 plus 5 equals 9.
+```
+
+### BigQuery
+
 `uv run bigquery/main.py`
 
 You'll then see a lot of output like this:

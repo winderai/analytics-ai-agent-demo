@@ -1,5 +1,4 @@
 import asyncio
-from typing import Any
 from pydantic_ai import Agent, ModelRetry
 from pydantic_ai.models.openai import OpenAIModel
 from google.cloud import bigquery
